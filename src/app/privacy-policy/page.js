@@ -10,15 +10,17 @@ function page() {
     <Fragment>
       <Header></Header>
 
-      <section className="mt-14 mb-14 px-14 sm:px-16 md:px-20 lg:px-24 xl:px-28 w-full flex-col flex items-center gap-1 lg:items-start text-center lg:text-start">
-        <h2 className="text-[25px] font-semibold">Privacy Policy</h2>
-        <p className="text-[14px] text-[#232536]">
-          Last Updated on 27th January 2021
-        </p>
+      <section className="mt-14 mb-14 px-14 sm:px-16 md:px-20 lg:px-24 xl:px-28 w-full  text-center lg:text-start flex items-center justify-center">
+        <div className="w-full 2xl:max-w-[1300px] flex-col flex items-center gap-1 lg:items-start">
+          <h2 className="text-[25px] font-semibold">Privacy Policy</h2>
+          <p className="text-[14px] text-[#232536]">
+            Last Updated on 27th January 2021
+          </p>
+        </div>
       </section>
 
-      <section className="px-14 mb-20 sm:px-16 md:px-20 lg:px-24 xl:px-28 w-full flex-col flex items-center lg:items-start text-center lg:text-start">
-        <div className="p-12 bg-[#ECF8F9] flex flex-col items-center lg:items-start gap-6">
+      <section className="px-14 mb-20 sm:px-16 md:px-20 lg:px-24 xl:px-28 w-full  flex items-center justify-center text-center lg:text-start">
+        <div className="p-12 bg-[#ECF8F9] 2xl:max-w-[1300px] w-full flex flex-col items-center lg:items-start gap-6">
           <h3 className="text-[20px] font-semibold text-[#232536]">
             Transform Your Idea Into Reality with Ether a Leading Digital Agency
           </h3>

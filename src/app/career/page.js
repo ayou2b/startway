@@ -12,18 +12,20 @@ function page() {
     <Fragment>
       <Header></Header>
 
-      <section className="mt-14 flex flex-col items-center text-center gap-3 px-14  sm:px-16 md:px-20 lg:px-24 xl:px-28">
-        <span className="text-[#232536] uppercase font-medium max-w-md">
-          CAREER AT FINSWEET
-        </span>
-        <h1 className="text-[#232536] text-[35px] font-bold max-w-md">
-          We hired people who are Always Passionate about what they do
-        </h1>
-        <p className="leading-7 text-[#232536] max-w-md">
-          Through True Rich Attended does no end it his mother since real had
-          half every him case in packages enquire we up ecstatic unsatiable saw
-          .
-        </p>
+      <section className="mt-14  flex items-center justify-center px-14  sm:px-16 md:px-20 lg:px-24 xl:px-28">
+        <div className="w-full 2xl:max-w-[1300px] flex flex-col items-center text-center gap-4">
+          <span className="text-[#232536] uppercase font-medium max-w-md">
+            CAREER AT FINSWEET
+          </span>
+          <h1 className="text-[#232536] text-[35px] font-bold max-w-md">
+            We hired people who are Always Passionate about what they do
+          </h1>
+          <p className="leading-7 text-[#232536] max-w-md">
+            Through True Rich Attended does no end it his mother since real had
+            half every him case in packages enquire we up ecstatic unsatiable
+            saw .
+          </p>
+        </div>
       </section>
 
       <section className=" px-14 sm:px-16 md:px-20 lg:px-24 xl:px-28 flex items-center justify-center">
@@ -44,8 +46,8 @@ function page() {
         <p>👇</p>
       </section>
 
-      <section className="px-14 mb-20 sm:px-16 md:px-20 lg:px-24 xl:px-28 text-center lg:text-start w-full">
-        <div className="bg-[#ECF8F9] py-12 lg:gap-10 flex flex-col items-center gap-5 md:grid md:grid-cols-2 md:place-items-center lg:grid-cols-3 lg:place-content-between w-full">
+      <section className="px-14 mb-20 sm:px-16 md:px-20 lg:px-24 xl:px-28 text-center lg:text-start flex items-center justify-center w-full">
+        <div className="bg-[#ECF8F9] py-12 2xl:max-w-[1300px] lg:gap-10 flex flex-col items-center gap-5 md:grid md:grid-cols-2 md:place-items-center lg:grid-cols-3 lg:place-content-between w-full">
           <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
             <span className="text-[#] font-medium">Full Stack Developer</span>
             <div className="flex flex-col gap-1">
@@ -182,91 +184,97 @@ function page() {
         </div>
       </section>
 
-      <section className="bg-[#FAFAFC] py-12 px-14 mb-20 sm:px-16 md:px-20 lg:px-24 xl:px-28 text-center lg:text-start w-full flex flex-col items-center lg:items-start gap-8">
-        <div className="flex flex-col items-center lg:items-start gap-3 max-w-md">
-          <span className="text-black tracking-wider uppercase">
-            OUR WORK & CULTURE
-          </span>
-
-          <h2 className="text-[25px] font-semibold max-w-md">
-            Come and join a team of highly skilled professionals.
-          </h2>
-          <p>
-            Through True Rich Attended does no end it his mother since real had
-            half every him case in packages enquire we up ecstatic unsatiable
-            saw his giving Remain expense you position concluded.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center gap-5 md:grid md:grid-cols-2 md:place-items-center lg:grid-cols-3">
-          <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
-            <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
-              <p>😷</p>
-            </div>
-            <span className="text-[#232536] font-medium">
-              Covid-19 insurance
+      <section className="bg-[#FAFAFC] py-12 px-14 mb-20 sm:px-16 md:px-20 lg:px-24 xl:px-28 text-center lg:text-start w-full flex items-center justify-center">
+        <div className="w-full 2xl:max-w-[1300px]  flex flex-col items-center lg:items-start gap-8">
+          <div className="flex flex-col items-center lg:items-start gap-3 max-w-md">
+            <span className="text-black tracking-wider uppercase">
+              OUR WORK & CULTURE
             </span>
-            <p className="text-[#575974]">
+
+            <h2 className="text-[25px] font-semibold max-w-md">
+              Come and join a team of highly skilled professionals.
+            </h2>
+            <p>
               Through True Rich Attended does no end it his mother since real
-              had halfdoes no end it
+              had half every him case in packages enquire we up ecstatic
+              unsatiable saw his giving Remain expense you position concluded.
             </p>
           </div>
 
-          <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
-            <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
-              <p>⏱</p>
+          <div className="flex flex-col items-center gap-5 md:grid md:grid-cols-2 md:place-items-center lg:grid-cols-3">
+            <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
+              <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
+                <p>😷</p>
+              </div>
+              <span className="text-[#232536] font-medium">
+                Covid-19 insurance
+              </span>
+              <p className="text-[#575974]">
+                Through True Rich Attended does no end it his mother since real
+                had halfdoes no end it
+              </p>
             </div>
-            <span className="text-[#232536] font-medium">
-              Flexible working time
-            </span>
-            <p className="text-[#575974]">
-              Through True Rich Attended does no end it his mother since real
-              had halfdoes no end it
-            </p>
-          </div>
 
-          <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
-            <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
-              <p>🏡</p>
+            <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
+              <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
+                <p>⏱</p>
+              </div>
+              <span className="text-[#232536] font-medium">
+                Flexible working time
+              </span>
+              <p className="text-[#575974]">
+                Through True Rich Attended does no end it his mother since real
+                had halfdoes no end it
+              </p>
             </div>
-            <span className="text-[#232536] font-medium">Work from home</span>
-            <p className="text-[#575974]">
-              Through True Rich Attended does no end it his mother since real
-              had halfdoes no end it
-            </p>
-          </div>
 
-          <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
-            <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
-              <p>🎉</p>
+            <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
+              <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
+                <p>🏡</p>
+              </div>
+              <span className="text-[#232536] font-medium">Work from home</span>
+              <p className="text-[#575974]">
+                Through True Rich Attended does no end it his mother since real
+                had halfdoes no end it
+              </p>
             </div>
-            <span className="text-[#232536] font-medium">Annual retreats</span>
-            <p className="text-[#575974]">
-              Through True Rich Attended does no end it his mother since real
-              had halfdoes no end it
-            </p>
-          </div>
 
-          <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
-            <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
-              <p>💰</p>
+            <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
+              <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
+                <p>🎉</p>
+              </div>
+              <span className="text-[#232536] font-medium">
+                Annual retreats
+              </span>
+              <p className="text-[#575974]">
+                Through True Rich Attended does no end it his mother since real
+                had halfdoes no end it
+              </p>
             </div>
-            <span className="text-[#232536] font-medium">Learning stipend</span>
-            <p className="text-[#575974]">
-              Through True Rich Attended does no end it his mother since real
-              had halfdoes no end it
-            </p>
-          </div>
 
-          <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
-            <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
-              <p>💪</p>
+            <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
+              <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
+                <p>💰</p>
+              </div>
+              <span className="text-[#232536] font-medium">
+                Learning stipend
+              </span>
+              <p className="text-[#575974]">
+                Through True Rich Attended does no end it his mother since real
+                had halfdoes no end it
+              </p>
             </div>
-            <span className="text-[#232536] font-medium">Gym membership</span>
-            <p className="text-[#575974]">
-              Through True Rich Attended does no end it his mother since real
-              had halfdoes no end it
-            </p>
+
+            <div className="bg-white p-5 flex flex-col items-center lg:items-start gap-3">
+              <div className="bg-[rgb(255,211,175,50%)] flex items-center justify-center w-[50px] h-[50px] rounded-full">
+                <p>💪</p>
+              </div>
+              <span className="text-[#232536] font-medium">Gym membership</span>
+              <p className="text-[#575974]">
+                Through True Rich Attended does no end it his mother since real
+                had halfdoes no end it
+              </p>
+            </div>
           </div>
         </div>
       </section>
