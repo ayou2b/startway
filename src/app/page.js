@@ -56,7 +56,7 @@ export default function Home() {
 
   return (
     <Fragment>
-      <header className="  h-[10vh] w-full px-12 py-9 bg-[#232536] text-white sm:px-14 md:px-16 lg:px-20 xl:px-24 flex items-center justify-center">
+      <header className="  h-[10vh] w-full px-14 py-9 bg-[#232536] text-white sm:px-16 md:px-20 lg:px-24 xl:px-28 flex items-center justify-center">
         <div className="w-full 2xl:max-w-[1300px] flex items-center justify-between">
           <h1 className="text-[20px] font-bold">
             <Link href="/">STARTWAY</Link>
